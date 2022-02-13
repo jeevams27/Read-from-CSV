@@ -24,13 +24,15 @@ Print the output.
 ## PROGRAM:
 
 #To write a python program for reading content from a CSV file.
-
+```
 import pandas as pd
 df=pd.read_csv('data.csv')
 print(df.head(10))
 print(df.tail())
 print('No. of Columns:',len(df.axes[1]))
 print('No. of Rows:',len(df.axes[0]))
+```
+
 
 ## OUTPUT:
 
